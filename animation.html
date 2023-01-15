@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+        /* animation-name: xyz;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in;
+        animation-delay: 2s; */
+        /* animation-direction: alternate; */
+        /* animation-direction: reverse; */
+        /* animation-direction:alternate-reverse; */
+        animation: xyz 6s ease-in 2s infinite alternate-reverse ;
+        position:absolute;
+        border-radius: 100%;
+
+        }
+        /* @keyframes xyz
+        {
+            from{
+                background-color:gray;
+                height:100px;
+                  width:100px;
+            }
+            to{
+                background-color:blueviolet;
+        height:200px;
+        width:200px;
+            } */
+        @keyframes xyz{
+
+        
+       0%{
+        background-color:gray;
+        height:200px;
+        width:200px;
+        top:0px;
+        left:0px;
+       
+
+
+        }
+        25%{
+            background-color: blueviolet;
+            height:200px;
+            width:200px;
+            top:400px;
+            left:0px;
+       
+        }
+    50%{
+        background-color: rgb(220, 11, 11);
+        height:200px;
+        width:200px;
+        top:400px;
+        left:600px;
+       
+
+    }
+    75%{
+        background-color: rgb(84, 8, 247);
+        height: 200px;
+        width:200px;
+        top:0px;
+        left:600px;
+       
+    }
+    100%{
+        background-color: rgb(2, 233, 75);
+        height: 200px;
+        width: 200px;
+        top:0px;
+        left:0px;
+       
+    }
+    
+    
+    
+    }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

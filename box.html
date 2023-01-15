@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+            position: absolute;
+
+        }
+
+        .b1 {
+            background-color: blueviolet;
+            top: 100px;
+            left: 50px;
+            z-index: 2;
+
+        }
+
+        .b2 {
+            background-color: rgb(49, 222, 43);
+            top: 150px;
+            left: 80px;
+            z-index: 1;
+
+        }
+
+        .b3 {
+            background-color: rgb(169, 53, 7);
+            top: 180px;
+            left: 100px;
+            z-index: 3;
+        }
+
+        .b4 {
+            background-color: rgb(43, 3, 80);
+            top: 250px;
+            left: 150px;
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box b1">box 1</div>
+    <div class="box b2">box 2</div>
+    <div class="box b3">box 3</div>
+    <div class="box b4">box 4</div>
+</body>
+
+</html>
